@@ -149,10 +149,11 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    max-width: 760px;
   }
   form select, form input {
     margin-bottom: 20px;
-    width: 130px;
+    width: 120px;
     margin-bottom: 0;
   }
   .group {
