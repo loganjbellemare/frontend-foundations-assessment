@@ -145,21 +145,19 @@ footer p {
     align-items: center;
     padding-top: 10px;
   }
-  form div {
-    display: flex;
-    margin-right: 10px;
-  }
   form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: -18px;
-    margin-right: 0px;
   }
   form select, form input {
     margin-bottom: 20px;
-    width: 130px;
+    width: 85%;
     margin-bottom: 0;
+  }
+  form.item-double {
+    justify-content: space-between;
+    flex: 1;
   }
   .group {
     display: flex;
