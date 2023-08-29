@@ -146,14 +146,14 @@ footer p {
     padding-top: 10px;
   }
   form div {
-    display: inline;
+    display: flex;
     margin-right: 10px;
   }
   form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: -15px;
+    margin-left: -18px;
     margin-right: -10px;
   }
   form select, form input {
