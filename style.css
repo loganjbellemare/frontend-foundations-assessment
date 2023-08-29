@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -64,8 +64,20 @@ header {
   color: #fff;
 }
 
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
 header nav ul li a {
@@ -89,10 +101,16 @@ form label {
   font-weight: bold;
 }
 
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  border-radius: 3px;
 }
 
 form button {
@@ -117,3 +135,38 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  header nav ul {
+    align-items: center;
+    padding-top: 10px;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form label {
+    padding-right: 10px;
+  }
+  form select, form input {
+    margin-bottom: 20px;
+    width: 180px;
+    margin-bottom: 0;
+  }
+  .group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  form div {
+    flex-direction: column;
+  }
+  form button {
+    flex: 1;
+  }
+}
