@@ -148,14 +148,11 @@ footer p {
   form {
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-  form label {
-    padding-right: 10px;
+    justify-content: flex-start;
   }
   form select, form input {
     margin-bottom: 20px;
-    width: 180px;
+    width: 130px;
     margin-bottom: 0;
   }
   .group {
@@ -165,6 +162,7 @@ footer p {
   }
   form div {
     flex-direction: column;
+    margin-right: 40px;
   }
   form button {
     flex: 1;
