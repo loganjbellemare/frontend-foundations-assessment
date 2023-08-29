@@ -112,3 +112,4 @@ Within the media query, write CSS to create the following designs for desktop:
 - The items in the "Want to Become a Thinkful Host?" section should be horizontally aligned. The paragraph content should be vertically centered and be as wide as each image item, like this:
 
 ![Host desktop](./images/host-desktop.png)
+#frontend-foundations-assessment
